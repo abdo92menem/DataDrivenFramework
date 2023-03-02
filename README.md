@@ -1,5 +1,5 @@
 # DataDriven Framework
-## This will contain:
+*This will contain:*
 1. WebDriver
 2. Properties
       - Configuration file (Config.properties) 
