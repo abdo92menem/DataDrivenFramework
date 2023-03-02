@@ -2,8 +2,8 @@
 ## This will contain:
 1. WebDriver
 2. Properties
-  - Configuration file (Config.properties) 
-  - Locators file (OR.properties)
+      - Configuration file (Config.properties) 
+      - Locators file (OR.properties)
 3. Logs
   - Log4j2 dependencies
   - .log files
