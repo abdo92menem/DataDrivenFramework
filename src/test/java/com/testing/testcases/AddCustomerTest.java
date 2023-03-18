@@ -2,32 +2,37 @@ package com.testing.testcases;
 
 
 import java.io.IOException;
+import java.util.Hashtable;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.testing.base.TestBase;
+import com.testing.utilities.TestUtil;
 
 public class AddCustomerTest extends TestBase {
 	
-	@Test(dataProvider = "CustomerData")
-	public void addCustomer(String firstName, String lastName, String postCode, String alertText) {
+	@Test(dataProviderClass = TestUtil.class, dataProvider = "dp")
+	public void addCustomerTest(Hashtable<String, String> data) throws InterruptedException {
 		
 		log.debug("Inside Add Customer Test");
 		
-		driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();
-		driver.findElement(By.cssSelector(OR.getProperty("firstName"))).sendKeys(firstName);
-		driver.findElement(By.cssSelector(OR.getProperty("lastName"))).sendKeys(lastName);
-		driver.findElement(By.cssSelector(OR.getProperty("postCode"))).sendKeys(postCode);
-		driver.findElement(By.cssSelector(OR.getProperty("addBtn"))).click();
+		if (!data.get("Run Mode").equalsIgnoreCase("Y")) {
+			
+			throw new SkipException("Skipping test case as Run Mode = N");
+		}
+		click("addCustomer_CSS");
+		type("firstName_CSS", data.get("First Name"));
+		type("lastName_CSS", data.get("Last Name"));
+		type("postCode_CSS", data.get("Post Code")); 
+		click("addBtn_CSS");
 		
 		alert = wait.until(ExpectedConditions.alertIsPresent());
-		Assert.assertTrue(alert.getText().contains(alertText));
+		Assert.assertTrue(alert.getText().contains(data.get("Alert Text")));
 		alert.accept();
-		
 		log.debug("Customer Added Successfully");
 		
 	}

@@ -1,584 +1,199 @@
-2023-03-02 08:09:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 08:09:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 08:09:35  devpinoyLogger - Config file loaded !!!
-2023-03-02 08:09:35  devpinoyLogger - OR file loaded !!!
-2023-03-02 08:09:35  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 08:09:35  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 08:09:35  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 08:09:35  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17fa1336
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 08:09:35  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 08:09:35  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 08:09:35  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 08:09:35  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 08:09:35  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 08:09:35  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 08:09:35  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 08:09:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 08:09:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 08:09:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 08:09:35  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 08:09:35  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 08:09:35  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 08:09:36  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 27316 (auto-detected)
-2023-03-02 08:09:36  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 08:09:36  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 08:09:36  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 08:09:36  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 08:09:36  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 08:09:36  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 08:09:36  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 08:09:36  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c5f2a6e
-2023-03-02 08:09:36  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 08:09:36  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 08:09:36  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 08:09:36  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 08:09:36  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 08:09:37  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x471029a440352964
-2023-03-02 08:09:37  devpinoyLogger - Chrome Launched !!!
-2023-03-02 08:09:40  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 08:09:40  devpinoyLogger - Inside Login Test
-2023-03-02 08:09:41  devpinoyLogger - Login successfully executed
-2023-03-02 08:09:41  devpinoyLogger - Inside getData Function
-2023-03-02 08:09:41  devpinoyLogger - Inside Add Customer Test
-2023-03-02 08:09:42  devpinoyLogger - Customer Added Successfully
-2023-03-02 08:09:42  devpinoyLogger - Test Execution completed !!!
-2023-03-02 08:16:55  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 08:16:55  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 08:16:56  devpinoyLogger - Config file loaded !!!
-2023-03-02 08:16:56  devpinoyLogger - OR file loaded !!!
-2023-03-02 08:16:56  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 08:16:56  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 08:16:56  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 08:16:56  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@411c6d44
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 08:16:56  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 08:16:56  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 08:16:56  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 08:16:56  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 08:16:56  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 08:16:56  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 08:16:56  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 08:16:56  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 08:16:56  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 08:16:56  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 08:16:56  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 08:16:56  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 08:16:56  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 08:16:57  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 28460 (auto-detected)
-2023-03-02 08:16:57  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 08:16:57  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 08:16:57  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 08:16:57  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 08:16:57  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 08:16:57  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 08:16:57  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 08:16:57  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@410b241c
-2023-03-02 08:16:57  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 08:16:57  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 08:16:57  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 08:16:57  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 08:16:58  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 08:16:58  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd472b9caa61ecb3a
-2023-03-02 08:16:58  devpinoyLogger - Chrome Launched !!!
-2023-03-02 08:17:00  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 08:17:00  devpinoyLogger - Inside Login Test
-2023-03-02 08:17:01  devpinoyLogger - Login successfully executed
-2023-03-02 08:17:02  devpinoyLogger - Inside getData Function
-2023-03-02 08:17:02  devpinoyLogger - Inside Add Customer Test
-2023-03-02 08:17:02  devpinoyLogger - Customer Added Successfully
-2023-03-02 08:17:03  devpinoyLogger - Test Execution completed !!!
-2023-03-02 08:57:42  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 08:57:42  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 08:57:43  devpinoyLogger - Config file loaded !!!
-2023-03-02 08:57:43  devpinoyLogger - OR file loaded !!!
-2023-03-02 08:57:43  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 08:57:43  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 08:57:43  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 08:57:43  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@237f7970
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 08:57:44  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 08:57:44  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 08:57:44  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 08:57:44  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 08:57:44  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 08:57:44  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 08:57:44  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 08:57:44  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 08:57:44  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 08:57:44  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 08:57:44  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 08:57:44  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 08:57:44  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 08:57:44  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1712 (auto-detected)
-2023-03-02 08:57:44  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 08:57:44  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 08:57:44  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 08:57:44  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 08:57:44  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 08:57:44  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 08:57:44  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 08:57:44  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46fc15c2
-2023-03-02 08:57:44  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 08:57:44  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 08:57:44  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 08:57:44  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 08:57:45  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 08:57:45  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd0cc3057447b852a
-2023-03-02 08:57:45  devpinoyLogger - Chrome Launched !!!
-2023-03-02 08:57:47  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 08:57:48  devpinoyLogger - Inside Login Test
-2023-03-02 08:57:49  devpinoyLogger - Login successfully executed
-2023-03-02 08:57:49  devpinoyLogger - Inside getData Function
-2023-03-02 08:57:49  devpinoyLogger - Inside Add Customer Test
-2023-03-02 08:57:50  devpinoyLogger - Customer Added Successfully
-2023-03-02 08:57:50  devpinoyLogger - Test Execution completed !!!
-2023-03-02 09:32:12  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 09:32:12  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 09:32:13  devpinoyLogger - Config file loaded !!!
-2023-03-02 09:32:13  devpinoyLogger - OR file loaded !!!
-2023-03-02 09:32:13  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 09:32:13  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 09:32:13  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 09:32:13  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@237f7970
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 09:32:13  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 09:32:13  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 09:32:13  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 09:32:13  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 09:32:13  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 09:32:13  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 09:32:13  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 09:32:13  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 09:32:13  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 09:32:13  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 09:32:13  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 09:32:13  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 09:32:13  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 09:32:14  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 28348 (auto-detected)
-2023-03-02 09:32:14  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 09:32:14  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 09:32:14  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 09:32:14  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 09:32:14  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 09:32:14  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 09:32:14  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 09:32:14  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4e301576
-2023-03-02 09:32:14  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 09:32:14  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 09:32:14  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 09:32:14  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 09:32:14  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 09:32:15  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x7dcc0922991f4f05
-2023-03-02 09:32:15  devpinoyLogger - Chrome Launched !!!
-2023-03-02 09:32:17  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 09:32:17  devpinoyLogger - Inside Login Test
-2023-03-02 09:32:18  devpinoyLogger - Login successfully executed
-2023-03-02 09:32:18  devpinoyLogger - Inside getData Function
-2023-03-02 09:32:18  devpinoyLogger - Inside Add Customer Test
-2023-03-02 09:32:19  devpinoyLogger - Customer Added Successfully
-2023-03-02 09:32:20  devpinoyLogger - Test Execution completed !!!
-2023-03-02 09:35:05  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 09:35:05  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 09:35:06  devpinoyLogger - Config file loaded !!!
-2023-03-02 09:35:06  devpinoyLogger - OR file loaded !!!
-2023-03-02 09:35:06  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 09:35:06  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 09:35:06  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 09:35:06  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@237f7970
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 09:35:06  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 09:35:06  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 09:35:06  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 09:35:06  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 09:35:07  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 09:35:07  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 09:35:07  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 09:35:07  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 09:35:07  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 09:35:07  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 09:35:07  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 09:35:07  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 09:35:07  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 09:35:07  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 5632 (auto-detected)
-2023-03-02 09:35:07  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 09:35:07  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 09:35:07  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 09:35:07  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 09:35:07  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 09:35:07  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 09:35:07  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 09:35:07  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4e301576
-2023-03-02 09:35:07  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 09:35:07  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 09:35:07  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 09:35:07  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 09:35:08  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 09:35:08  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x188393fc982ad8ba
-2023-03-02 09:35:08  devpinoyLogger - Chrome Launched !!!
-2023-03-02 09:35:10  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 09:35:11  devpinoyLogger - Inside Login Test
-2023-03-02 09:35:12  devpinoyLogger - Login successfully executed
-2023-03-02 09:35:12  devpinoyLogger - Inside getData Function
-2023-03-02 09:35:12  devpinoyLogger - Inside Add Customer Test
-2023-03-02 09:35:13  devpinoyLogger - Customer Added Successfully
-2023-03-02 09:35:13  devpinoyLogger - Test Execution completed !!!
-2023-03-02 09:36:17  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 09:36:17  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 09:36:18  devpinoyLogger - Config file loaded !!!
-2023-03-02 09:36:18  devpinoyLogger - OR file loaded !!!
-2023-03-02 09:36:18  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 09:36:18  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 09:36:18  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 09:36:18  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@237f7970
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 09:36:18  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 09:36:18  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 09:36:18  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 09:36:18  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 09:36:18  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 09:36:18  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 09:36:18  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 09:36:18  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 09:36:18  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 09:36:18  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 09:36:18  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 09:36:18  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 09:36:18  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 09:36:18  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 10732 (auto-detected)
-2023-03-02 09:36:18  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 09:36:18  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 09:36:18  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 09:36:18  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 09:36:18  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 09:36:19  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 09:36:19  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 09:36:19  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b6158d0
-2023-03-02 09:36:19  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 09:36:19  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 09:36:19  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 09:36:19  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 09:36:19  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 09:36:19  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6150fd3b753196f7
-2023-03-02 09:36:19  devpinoyLogger - Chrome Launched !!!
-2023-03-02 09:36:22  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 09:36:22  devpinoyLogger - Inside Login Test
-2023-03-02 09:36:23  devpinoyLogger - Login successfully executed
-2023-03-02 09:36:23  devpinoyLogger - Inside getData Function
-2023-03-02 09:36:23  devpinoyLogger - Inside Add Customer Test
-2023-03-02 09:36:24  devpinoyLogger - Customer Added Successfully
-2023-03-02 09:36:24  devpinoyLogger - Test Execution completed !!!
-2023-03-02 09:40:20  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 09:40:20  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 09:40:21  devpinoyLogger - Config file loaded !!!
-2023-03-02 09:40:21  devpinoyLogger - OR file loaded !!!
-2023-03-02 09:40:21  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 09:40:21  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 09:40:21  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 09:40:21  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@237f7970
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 09:40:21  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 09:40:21  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 09:40:21  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 09:40:21  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 09:40:22  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 09:40:22  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 09:40:22  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 09:40:22  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 09:40:22  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 09:40:22  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 09:40:22  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 09:40:22  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 09:40:22  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 09:40:22  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 23544 (auto-detected)
-2023-03-02 09:40:22  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 09:40:22  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 09:40:22  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 09:40:22  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 09:40:22  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 09:40:22  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 09:40:22  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 09:40:22  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46fc15c2
-2023-03-02 09:40:22  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 09:40:22  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 09:40:22  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 09:40:22  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 09:40:23  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 09:40:23  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x89f9888a78caaec1
-2023-03-02 09:40:23  devpinoyLogger - Chrome Launched !!!
-2023-03-02 09:40:26  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 09:40:27  devpinoyLogger - Inside Login Test
-2023-03-02 09:40:28  devpinoyLogger - Login successfully executed
-2023-03-02 09:40:28  devpinoyLogger - Inside getData Function
-2023-03-02 09:40:28  devpinoyLogger - Inside Add Customer Test
-2023-03-02 09:40:29  devpinoyLogger - Customer Added Successfully
-2023-03-02 09:40:29  devpinoyLogger - Test Execution completed !!!
-2023-03-02 10:11:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-03-02 10:11:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-03-02 10:11:34  devpinoyLogger - Config file loaded !!!
-2023-03-02 10:11:34  devpinoyLogger - OR file loaded !!!
-2023-03-02 10:11:34  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
-2023-03-02 10:11:34  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-03-02 10:11:34  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-03-02 10:11:34  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d9f64c9
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-03-02 10:11:34  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-03-02 10:11:34  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-03-02 10:11:34  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-03-02 10:11:34  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-03-02 10:11:35  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-03-02 10:11:35  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-03-02 10:11:35  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
-2023-03-02 10:11:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-03-02 10:11:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-2023-03-02 10:11:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-03-02 10:11:35  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-2023-03-02 10:11:35  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-2023-03-02 10:11:35  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-03-02 10:11:35  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 20476 (auto-detected)
-2023-03-02 10:11:35  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-03-02 10:11:35  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-03-02 10:11:35  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-03-02 10:11:35  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-03-02 10:11:35  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
-2023-03-02 10:11:35  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-2023-03-02 10:11:35  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-03-02 10:11:35  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7d0f8150
-2023-03-02 10:11:35  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-03-02 10:11:35  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-2023-03-02 10:11:35  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-2023-03-02 10:11:35  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-2023-03-02 10:11:36  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-2023-03-02 10:11:36  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe98c24ae2d097d15
-2023-03-02 10:11:36  devpinoyLogger - Chrome Launched !!!
-2023-03-02 10:11:39  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
-2023-03-02 10:11:39  devpinoyLogger - Inside Login Test
-2023-03-02 10:11:40  devpinoyLogger - Login successfully executed
-2023-03-02 10:11:40  devpinoyLogger - Inside getData Function
-2023-03-02 10:11:40  devpinoyLogger - Inside Add Customer Test
-2023-03-02 10:11:41  devpinoyLogger - Customer Added Successfully
-2023-03-02 10:11:41  devpinoyLogger - Test Execution completed !!!
+2023-03-17 17:58:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-17 17:58:34  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-03-17 17:58:35  devpinoyLogger - Config file loaded !!!
+2023-03-17 17:58:35  devpinoyLogger - OR file loaded !!!
+2023-03-17 17:58:35  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-03-17 17:58:35  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-03-17 17:58:35  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-17 17:58:35  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6cd64ee8
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - Java version: 17
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-17 17:58:35  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-03-17 17:58:35  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-17 17:58:35  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-17 17:58:35  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-17 17:58:35  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-17 17:58:35  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-17 17:58:35  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-03-17 17:58:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-03-17 17:58:35  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-17 17:58:35  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-17 17:58:35  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-03-17 17:58:35  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-17 17:58:35  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-17 17:58:36  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 25560 (auto-detected)
+2023-03-17 17:58:36  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-03-17 17:58:36  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-03-17 17:58:36  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-17 17:58:36  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-17 17:58:36  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
+2023-03-17 17:58:36  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-03-17 17:58:36  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-03-17 17:58:36  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3173bf49
+2023-03-17 17:58:36  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-17 17:58:36  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-03-17 17:58:36  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-03-17 17:58:36  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-03-17 17:58:37  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-17 17:58:37  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8b5205bcebc727e7
+2023-03-17 18:04:50  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-17 18:04:50  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-03-17 18:04:51  devpinoyLogger - Config file loaded !!!
+2023-03-17 18:04:51  devpinoyLogger - OR file loaded !!!
+2023-03-17 18:04:51  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-03-17 18:04:51  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-03-17 18:04:51  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-17 18:04:51  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2eae4349
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - Java version: 17
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @146ba0ac
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-17 18:04:51  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-03-17 18:04:51  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-17 18:04:51  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-17 18:04:51  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-17 18:04:51  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-17 18:04:51  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-17 18:04:51  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-03-17 18:04:51  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-03-17 18:04:51  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-17 18:04:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-17 18:04:51  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-03-17 18:04:51  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-17 18:04:51  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-17 18:04:52  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 20652 (auto-detected)
+2023-03-17 18:04:52  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-03-17 18:04:52  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-03-17 18:04:52  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-17 18:04:52  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-17 18:04:52  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
+2023-03-17 18:04:52  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-03-17 18:04:52  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-03-17 18:04:52  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@291169dd
+2023-03-17 18:04:52  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-17 18:04:52  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-03-17 18:04:52  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-03-17 18:04:52  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-03-17 18:04:52  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-17 18:04:53  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xcf95f882a3e66bf7
+2023-03-17 20:34:50  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-03-17 20:34:50  org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-03-17 20:34:51  devpinoyLogger - Config file loaded !!!
+2023-03-17 20:34:51  devpinoyLogger - OR file loaded !!!
+2023-03-17 20:34:51  io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-03-17 20:34:51  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-03-17 20:34:51  io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-17 20:34:51  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46185a1b
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - Java version: 17
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7354b8c5
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - maxDirectMemory: 4259315712 bytes (maybe)
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\AbduLLaH\AppData\Local\Temp (java.io.tmpdir)
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-17 20:34:51  io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-03-17 20:34:51  io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-17 20:34:51  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-17 20:34:51  io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-17 20:34:51  io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-17 20:34:51  io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-17 20:34:51  io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-03-17 20:34:51  io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-03-17 20:34:51  io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-17 20:34:51  io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-17 20:34:51  io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-03-17 20:34:51  io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-17 20:34:51  io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-17 20:34:52  io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12692 (auto-detected)
+2023-03-17 20:34:52  io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-03-17 20:34:52  io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-03-17 20:34:52  io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-17 20:34:52  io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-17 20:34:52  io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:56:5b:f8 (auto-detected)
+2023-03-17 20:34:52  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-03-17 20:34:52  io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-03-17 20:34:52  io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@706d62b4
+2023-03-17 20:34:52  io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-17 20:34:52  io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-03-17 20:34:52  io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-03-17 20:34:52  io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-03-17 20:34:53  io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-17 20:34:53  io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xbc59e934379205ca
+2023-03-17 20:34:53  devpinoyLogger - Chrome Launched !!!
+2023-03-17 20:34:55  devpinoyLogger - Navigeted to: https://www.way2automation.com/angularjs-protractor/banking/#/login
+2023-03-17 20:34:55  devpinoyLogger - Inside Login Test
+2023-03-17 20:34:57  devpinoyLogger - Test Execution completed !!!

@@ -14,6 +14,7 @@ import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.SkipException;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -28,64 +29,64 @@ import com.testing.utilities.ExtentManager;
 //import com.testing.utilities.TestConfig;
 import com.testing.utilities.TestUtil;
 
-public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
+public class CustomListeners extends TestBase implements ITestListener, ISuiteListener {
 
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 	static String messageBody;
-	private static ExtentReports extent = ExtentManager.createInstance("./ExtentReports/" + fileName);
-	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
-	
+	private static ExtentReports extent = ExtentManager.createInstance("./target/ExtentReports/" + fileName);
 
 	public void onTestStart(ITestResult result) {
 
-	
-		ExtentTest test = extent.createTest(result.getTestClass().getName()+"     @TestCase : "+result.getMethod().getMethodName());
-        testReport.set(test);
-        
+		ExtentTest test = extent
+				.createTest(result.getTestClass().getName() + "     @TestCase : " + result.getMethod().getMethodName());
+		testReport.set(test);
+		
+		// Run Mode
+		if (!TestUtil.isTestRunnable(result.getMethod().getMethodName(), excel)) {
+			
+			throw new SkipException("Skipping the test-" + result.getTestClass().getName().toUpperCase() + "- as the Run mode is NO");
+			
+		}
 
 	}
 
 	public void onTestSuccess(ITestResult result) {
 
-		
-		String methodName=result.getMethod().getMethodName();
-		String logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " PASSED"+"</b>";		
-		Markup m=MarkupHelper.createLabel(logText, ExtentColor.GREEN);
+		String methodName = result.getMethod().getMethodName();
+		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " PASSED" + "</b>";
+		Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		testReport.get().pass(m);
-		
 
 	}
 
 	public void onTestFailure(ITestResult result) {
 
-	
-		
-		
-		String excepionMessage=Arrays.toString(result.getThrowable().getStackTrace());
-		testReport.get().fail("<details>" + "<summary>" + "<b>" + "<font color=" + "red>" + "Exception Occured:Click to see"
-				+ "</font>" + "</b >" + "</summary>" +excepionMessage.replaceAll(",", "<br>")+"</details>"+" \n");
-		
+		String excepionMessage = Arrays.toString(result.getThrowable().getStackTrace());
+		testReport.get()
+				.fail("<details>" + "<summary>" + "<b>" + "<font color=" + "red>" + "Exception Occured:Click to see"
+						+ "</font>" + "</b >" + "</summary>" + excepionMessage.replaceAll(",", "<br>") + "</details>"
+						+ " \n");
+
 		try {
 
 			TestUtil.captureScreenshot();
 			testReport.get().fail("<b>" + "<font color=" + "red>" + "Screenshot of failure" + "</font>" + "</b>",
-					MediaEntityBuilder.createScreenCaptureFromPath(TestUtil.screenshotName)
-							.build());
+					MediaEntityBuilder.createScreenCaptureFromPath(TestUtil.screenshotName).build());
 		} catch (IOException e) {
 
 		}
-		
-		String failureLogg="TEST CASE FAILED";
+
+		String failureLogg = "TEST CASE FAILED";
 		Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
 		testReport.get().log(Status.FAIL, m);
 
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		String methodName=result.getMethod().getMethodName();
-		String logText="<b>"+"Test Case:- "+ methodName+ " Skipped"+"</b>";		
-		Markup m=MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
+		String methodName = result.getMethod().getMethodName();
+		String logText = "<b>" + "Test Case:- " + methodName + " Skipped" + "</b>";
+		Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
 		testReport.get().skip(m);
 
 	}
@@ -96,8 +97,6 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 	}
 
 	public void onStart(ITestContext context) {
-
-		
 
 	}
 
@@ -128,18 +127,16 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 
 	public void onStart(ISuite arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public void onFinish(ITestContext context) {
-
 
 		if (extent != null) {
 
 			extent.flush();
 		}
-		
-	}
 
+	}
 
 }
