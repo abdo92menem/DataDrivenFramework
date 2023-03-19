@@ -56,6 +56,7 @@ public class TestBase {
 	public static Alert alert;
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
 	public static WebElement dropdown;
+	public static String browser;
 	
 	@BeforeSuite
 	public void setUp() throws IOException {
@@ -71,6 +72,16 @@ public class TestBase {
 			log.debug("OR file loaded !!!");
 			
 		}
+		
+		if ((System.getenv("browser") != null) && !System.getenv("browser").isEmpty()) {
+			
+			browser = System.getenv("browser");
+		} else {
+			
+			browser = config.getProperty("browser");
+		}
+		
+		config.setProperty("browser", browser);
 		
 		if (config.getProperty("browser").equals("firefox")) {
 			

@@ -32,7 +32,9 @@ import com.testing.utilities.TestUtil;
 public class CustomListeners extends TestBase implements ITestListener, ISuiteListener {
 
 	static Date d = new Date();
-	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
+//	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
+	// This change of name for HTML publisher plugin in jenkins
+	static String fileName = "Extent.html";
 	static String messageBody;
 	private static ExtentReports extent = ExtentManager.createInstance("./target/ExtentReports/" + fileName);
 
